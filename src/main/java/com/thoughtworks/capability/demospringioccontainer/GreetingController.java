@@ -9,7 +9,6 @@ public class GreetingController {
 
     private final GreetingService greetingService;
 
-    @Autowired
     public GreetingController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
