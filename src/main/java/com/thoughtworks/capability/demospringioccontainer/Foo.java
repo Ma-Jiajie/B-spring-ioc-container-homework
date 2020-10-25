@@ -7,7 +7,7 @@ public class Foo {
 
     private Bar bar;
 
-    public Foo(Bar bar) {
+    public void setBar(Bar bar) {
         this.bar = bar;
     }
 
